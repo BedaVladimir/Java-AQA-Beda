@@ -21,6 +21,7 @@ public class Main {
                     case "-": System.out.println(n1 - n2); break;
                     case "*": System.out.println(n1 * n2); break;
                     case "/": System.out.println(n1 / n2); break;
+                    default: throw new Exception("Разрешенные операторы: +, -, *, /");
                 }
 
             } else {
